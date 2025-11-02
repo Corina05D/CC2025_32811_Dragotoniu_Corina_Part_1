@@ -1,0 +1,12 @@
+# Shell scripts (startup)
+*.sh text eol=lf
+
+# Python
+*.py text eol=lf
+
+# Ignore virtual environments
+backend/.venv/
+frontend/.venv/
+
+# Ignore environment files
+*.env

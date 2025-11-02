@@ -1,1 +1,9 @@
-streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0
+#!/bin/bash
+# intră în folderul frontend
+cd frontend
+
+# instalează toate dependențele
+pip install -r requirements.txt
+
+# pornește aplicația Streamlit
+streamlit run app.py --server.port $PORT --server.address 0.0.0.0
