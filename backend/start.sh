@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#install dependencies
 pip install -r requirements.txt
 
 # start application FastAPI with gunicorn + uvicorn
