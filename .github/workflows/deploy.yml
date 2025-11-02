@@ -16,11 +16,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install backend dependencies
-        run: |
-          cd backend
-          pip install -r requirements.txt
-
       - name: Deploy Backend to Azure
         uses: azure/webapps-deploy@v2
         with:
@@ -39,11 +34,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install frontend dependencies
-        run: |
-          cd frontend
-          pip install -r requirements.txt
 
       - name: Deploy Frontend to Azure
         uses: azure/webapps-deploy@v2
