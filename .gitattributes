@@ -5,8 +5,8 @@
 *.py text eol=lf
 
 # Ignore virtual environments
-backend/.venv/
-frontend/.venv/
+#backend/.venv/
+#frontend/.venv/
 
 # Ignore environment files
 *.env
