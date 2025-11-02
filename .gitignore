@@ -3,8 +3,8 @@ __pycache__/
 *.pyc
 
 # Frontend (Streamlit)
-# frontend/.venv/
-# backend/.venv/
+frontend/.venv/
+backend/.venv/
 
 # Environment / variabile secrete
 *.env
