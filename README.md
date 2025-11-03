@@ -57,7 +57,7 @@ your-repository/
 
 ---
 
-## ☁️ Azure Setup
+## Azure Setup
 
 ### Step 1: Create App Services
 
@@ -235,8 +235,8 @@ git push origin main
 
 | Service | URL | Description |
 |---------|-----|-------------|
-| **Backend** | `https://cc2025-backend-b0cca9b2dheje3cq.westeurope-01.azurewebsites.net` | Backend API service |
-| **Frontend** | `https://cc2025-frontend-[your-hash].westeurope-01.azurewebsites.net` | Streamlit web application |
+| **Backend** | `https://cc2025-backend-b0cca9b2dheje3cq.westeurope-01.azurewebsites.net/api/data` | Backend API service |
+| **Frontend** | `cc2025-frontend-e2c5e8gcbjeehaet.westeurope-01.azurewebsites.net` | Streamlit web application |
 
 ### Azure Portal Links:
 
