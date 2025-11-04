@@ -242,13 +242,13 @@ git push origin main
 
 | Resource | Link |
 |----------|------|
-| **Resource Group** | [Azure Portal - Resource Groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) |
-| **Backend App Service** | [Azure Portal - cc2025-backend](https://portal.azure.com/#view/WebsitesExtension/WebSiteMenu/~/overview) |
-| **Frontend App Service** | [Azure Portal - cc2025-frontend](https://portal.azure.com/#view/WebsitesExtension/WebSiteMenu/~/overview) |
+| **Resource Group** | [Azure Portal - Resource Groups](https://portal.azure.com/#browse/Microsoft.Web%2Fsites) |
+| **Backend App Service** | [Azure Portal - cc2025-backend](https://portal.azure.com/#@corinadragotoniu05yahoo.onmicrosoft.com/resource/subscriptions/e2660524-65b1-4966-ac27-355e37459ca6/resourceGroups/cc2025-backend_group/providers/Microsoft.Web/sites/cc2025-backend/appServices) |
+| **Frontend App Service** | [Azure Portal - cc2025-frontend](https://portal.azure.com/#@corinadragotoniu05yahoo.onmicrosoft.com/resource/subscriptions/e2660524-65b1-4966-ac27-355e37459ca6/resourceGroups/cc2025-frontend_group/providers/Microsoft.Web/sites/cc2025-frontend/appServices) |
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues:
 
@@ -413,5 +413,10 @@ git push origin main
 - **Streamlit Docs**: [docs.streamlit.io](https://docs.streamlit.io)
 
 ---
+
+## Conceptual architecture of the system
+
+
+<img width="1031" height="651" alt="Part1_Clod drawio" src="https://github.com/user-attachments/assets/f719cb0c-ac1e-4f85-b9f8-3f6c4289f09d" />
 
 **Last Updated**: November 2025
